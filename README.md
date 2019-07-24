@@ -3,11 +3,13 @@
 簡單的Java練習小程式<br>
 只能用命令列執行<br>
 玩法可以參見<br>
-https://zh.wikipedia.org/wiki/猜数字#玩法
+https://zh.wikipedia.org/wiki/猜数字#玩法<br>
+note:程式允許0當字首，亂數產生時會出現0字首的數字
 
 My simple Java practice program<br>
 Only can run in the terminal(Or Windows command prompt)<br>
 Can view https://en.wikipedia.org/wiki/Bulls_and_Cows to see how to play<br>
+note:The program allows 0 to be the first word. Also computer generating random number mode.<br>
 (Sorry for my bad English...)
 
 ## How to run program?
@@ -21,9 +23,9 @@ Can view https://en.wikipedia.org/wiki/Bulls_and_Cows to see how to play<br>
     <pre><code>java -jar 1A2B.jar rand</code></pre>
   * "手動輸入模式"，允許輸入答案，接著進行猜題，適合你出我猜的情境
     <pre><code>java -jar 1A2B.jar getnum</code></pre>
-
+<br><br>
 * First you need install Java or JDK on your computer. To check it you can use command below:
-  <pre><code>java -jar 1A2B.jar</code></pre>
+  <pre><code>java -version</code></pre>
 * This program has two modes. To change it you can add argument like this:
   <pre><code>java -jar 1A2B.jar</code></pre>
   or
