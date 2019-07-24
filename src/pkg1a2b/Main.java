@@ -165,7 +165,7 @@ public class Main {
                 System.out.print("Try");
                 System.out.print(trytimes);
                 System.out.print(" => ");
-                ans = scanner.next();
+                ans = scanner.nextLine();
                 conans = ans.toCharArray();
                 chkinnum(conans);
                 if (chkfallloop == false) {
